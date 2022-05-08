@@ -2,9 +2,11 @@
 
 ## 01.Github仓库建站
 
-参考:
+> 参考:
+> 
+> [Mac部署Hexo详细教程](https://blog.csdn.net/weixin_41160054/article/details/89531921)
 
-[Mac部署Hexo详细教程](https://blog.csdn.net/weixin_41160054/article/details/89531921)
+
 
 新建一个库，库名和github名字保持一致：
 即如果我的账号为sunnyzhubuxin，那么我的库名就是sunnyzhubuxin.github.io
@@ -62,7 +64,7 @@ Hi 你的用户名! You've successfully authenticated, but GitHub does not provi
 
 接下来在浏览器中输入 【你的名字】.github.io ，如果成功出现页面，并且页面上是你刚输入的地址，那么github pages配置成功。
 
-## 03.Nodejs安装
+## 03.Node.js安装
 
 切记：不要去下载pkg安装包安装，会报错
 
@@ -89,9 +91,9 @@ $ nvm install node
 
 ## 04.Hexo安装
 
-参考：
-
-[利用Hexo搭建自己的个人博客(Mac)](https://www.bilibili.com/video/BV1Ux411H7iX?from=search&seid=5301818938814494583&spm_id_from=333.337.0.0)
+> 参考：
+> 
+> [利用Hexo搭建自己的个人博客(Mac)](https://www.bilibili.com/video/BV1Ux411H7iX?from=search&seid=5301818938814494583&spm_id_from=333.337.0.0)
 
 ```
 $ npm install -g hexo-cli
@@ -134,9 +136,9 @@ $ hexo s
 
 ## 05.设置一键部署
 
-参考：
-
-- 官方：[部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
+> 参考：
+> 
+> 官方文档：[部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
 
 完成上面的操作后，需要将本地的文件推到github上。
 
@@ -172,9 +174,9 @@ $ hexo clean && hexo deploy
 
 ## 06.如何更换hexo主题
 
-参考：
-
-[给hexo安装主题](https://blog.csdn.net/weixin_41160054/article/details/89473887)
+> 参考：
+> 
+> [给hexo安装主题](https://blog.csdn.net/weixin_41160054/article/details/89473887)
 
 第一步：下载next主题包。
 使用terminal，进入到我们Hexo的安装包下面。我的安装包，叫做blog。因此，我输入下述代码
@@ -215,9 +217,9 @@ $ hexo d
 
 ## 07.如何发布文章
 
-参考：
-
-[Hexo发布文章](https://blog.csdn.net/zhangyu4863/article/details/80976738)
+> 参考：
+> 
+> [Hexo发布文章](https://blog.csdn.net/zhangyu4863/article/details/80976738)
 
 第一步：打开文件夹新建一个md文档
 
@@ -268,9 +270,9 @@ $ hexo d -g
 
 ## 08.在博客中如何插入图片
 
-参考：
-
-[在Hexo博客中插入图片](https://blog.csdn.net/weixin_34348805/article/details/91389277)
+> 参考：
+> 
+> [在Hexo博客中插入图片](https://blog.csdn.net/weixin_34348805/article/details/91389277)
 
 **src 链接**
 
