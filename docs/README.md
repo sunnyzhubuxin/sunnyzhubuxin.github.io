@@ -6,8 +6,6 @@
 > 
 > [Mac部署Hexo详细教程](https://blog.csdn.net/weixin_41160054/article/details/89531921)
 
-
-
 新建一个库，库名和github名字保持一致：
 即如果我的账号为sunnyzhubuxin，那么我的库名就是sunnyzhubuxin.github.io
 
@@ -304,15 +302,7 @@ post_asset_folder: true
 ![alt](test.jpg)
 ```
 
-
-
-
-
 # Nginx
-
-
-
-
 
 # 一些网址
 
