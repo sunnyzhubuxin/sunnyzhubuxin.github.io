@@ -1,8 +1,12 @@
+# Hexo
+
 ## 01.Github仓库建站
 
-参考:
+> 参考:
+> 
+> [Mac部署Hexo详细教程](https://blog.csdn.net/weixin_41160054/article/details/89531921)
 
-[Mac部署Hexo详细教程](https://blog.csdn.net/weixin_41160054/article/details/89531921)
+
 
 新建一个库，库名和github名字保持一致：
 即如果我的账号为sunnyzhubuxin，那么我的库名就是sunnyzhubuxin.github.io
@@ -60,7 +64,7 @@ Hi 你的用户名! You've successfully authenticated, but GitHub does not provi
 
 接下来在浏览器中输入 【你的名字】.github.io ，如果成功出现页面，并且页面上是你刚输入的地址，那么github pages配置成功。
 
-## 03.Nodejs安装
+## 03.Node.js安装
 
 切记：不要去下载pkg安装包安装，会报错
 
@@ -85,11 +89,13 @@ $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bas
 $ nvm install node
 ```
 
-## 04Hexo安装
+## 04.Hexo安装
 
-参考：
+> 参考：
+> 
+> [利用Hexo搭建自己的个人博客(Mac)](https://www.bilibili.com/video/BV1Ux411H7iX?from=search&seid=5301818938814494583&spm_id_from=333.337.0.0)
 
-[利用Hexo搭建自己的个人博客(Mac)](https://www.bilibili.com/video/BV1Ux411H7iX?from=search&seid=5301818938814494583&spm_id_from=333.337.0.0)
+
 
 ```
 $ npm install -g hexo-cli
@@ -130,11 +136,13 @@ $ hexo s
 
 在本地的环境就搭建好了。
 
-## 05设置一键部署
+## 05.设置一键部署
 
-参考：
+> 参考：
+> 
+> 官方：[部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
 
-- 官方：[部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
+
 
 完成上面的操作后，需要将本地的文件推到github上。
 
@@ -168,11 +176,13 @@ $ npm install hexo-deployer-git --save
 $ hexo clean && hexo deploy
 ```
 
-## 06如何更换hexo主题
+## 06.如何更换hexo主题
 
-参考：
+> 参考：
+> 
+> [给hexo安装主题](https://blog.csdn.net/weixin_41160054/article/details/89473887)
 
-[给hexo安装主题](https://blog.csdn.net/weixin_41160054/article/details/89473887)
+
 
 第一步：下载next主题包。
 使用terminal，进入到我们Hexo的安装包下面。我的安装包，叫做blog。因此，我输入下述代码
@@ -211,11 +221,13 @@ $ hexo s
 $ hexo d
 ```
 
-## 07如何发布文章
+## 07.如何发布文章
 
-参考：
+> 参考：
+> 
+> [Hexo发布文章](https://blog.csdn.net/zhangyu4863/article/details/80976738)
 
-[Hexo发布文章](https://blog.csdn.net/zhangyu4863/article/details/80976738)
+
 
 第一步：打开文件夹新建一个md文档
 
@@ -264,13 +276,15 @@ $ hexo clean && hexo g -d
 
 $ hexo d -g
 
-## 08在博客中如何插入图片
+## 08.在博客中如何插入图片
 
-参考：
+> 参考：
+> 
+> [在Hexo博客中插入图片](https://blog.csdn.net/weixin_34348805/article/details/91389277)
 
-[在Hexo博客中插入图片](https://blog.csdn.net/weixin_34348805/article/details/91389277)
 
-###### src 链接
+
+**src 链接**
 
 如果你要插入的图片，是一个外部的 src 链接地址，比如该图片存放在 CDN 上，或某某图床上面，那就使用 Markdown 默认的插入图片的方式，方法和插入链接很像，只是前面多了一个感叹号，如下：
 
@@ -278,7 +292,7 @@ $ hexo d -g
 ![alt](https://ws3.sinaimg.cn/large/005BYqpgly1g29eohl7qhj31c00u0dkz.jpg)复制代码
 ```
 
-###### 本地绝对路径
+**本地绝对路径**
 
 当 Hexo 项目中只用到少量图片时，可以将图片统一放在 *source/images* 文件夹中，通过 Markdown 语法访问它们。
 
@@ -286,7 +300,7 @@ $ hexo d -g
 ![alt](/images/test.jpg)复制代码
 ```
 
-###### 本地相对路径
+**本地相对路径**
 
 图片除了可以放在统一的 images 文件夹中，还可以放在文章自己的目录中，文章的目录可以通过配置 *_config.yml* 来生成。配置如下：
 
@@ -299,3 +313,13 @@ post_asset_folder: true
 ```bash
 ![alt](test.jpg)
 ```
+
+
+
+# 一些网址
+
+- [docsify](https://docsify.js.org/#/zh-cn/)
+
+- [入坑 docsify，一款神奇的文档生成利器！](https://baijiahao.baidu.com/s?id=1683928475208184783&wfr=spider&for=pc)
+
+[Docsify-Guide](https://ysgstudyhards.github.io/Docsify-Guide/#/)
