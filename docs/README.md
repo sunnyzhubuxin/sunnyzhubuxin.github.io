@@ -2,11 +2,11 @@
 
 ## 01.Github仓库建站
 
+---
+
 > 参考:
 > 
 > [Mac部署Hexo详细教程](https://blog.csdn.net/weixin_41160054/article/details/89531921)
-
-
 
 新建一个库，库名和github名字保持一致：
 即如果我的账号为sunnyzhubuxin，那么我的库名就是sunnyzhubuxin.github.io
@@ -140,8 +140,6 @@ $ hexo s
 > 
 > 官方：[部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
 
-
-
 完成上面的操作后，需要将本地的文件推到github上。
 
 Hexo 提供了快速方便的一键部署功能，只需一条命令就能将网站部署到服务器上。
@@ -179,8 +177,6 @@ $ hexo clean && hexo deploy
 > 参考：
 > 
 > [给hexo安装主题](https://blog.csdn.net/weixin_41160054/article/details/89473887)
-
-
 
 第一步：下载next主题包。
 使用terminal，进入到我们Hexo的安装包下面。我的安装包，叫做blog。因此，我输入下述代码
@@ -224,8 +220,6 @@ $ hexo d
 > 参考：
 > 
 > [Hexo发布文章](https://blog.csdn.net/zhangyu4863/article/details/80976738)
-
-
 
 第一步：打开文件夹新建一个md文档
 
@@ -311,3 +305,16 @@ post_asset_folder: true
 ```bash
 ![alt](test.jpg)
 ```
+
+# 一些网址
+
+- [vuepress]([VuePress](https://vuepress.vuejs.org/zh/))
+- [docsify](#(https://docsify.js.org/#/zh-cn/))
+
+blog
+
+https://juemuren4449.com/
+
+[入坑 docsify，一款神奇的文档生成利器！](https://baijiahao.baidu.com/s?id=1683928475208184783&wfr=spider&for=pc)
+
+[Docsify-Guide](https://ysgstudyhards.github.io/Docsify-Guide/#/)
